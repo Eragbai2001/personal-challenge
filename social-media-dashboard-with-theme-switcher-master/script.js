@@ -1,13 +1,9 @@
-/* const toggleElement = document.querySelector(".toggle");
-
-toggleElement.addEventListener("click", () => {
-  toggleElement.classList.toggle("active");
-});
- */
 const toggleElement = document.querySelector(".toggle");
 
-// Select all elements with the .d-flex, .xl, and .p classes
-const dFlexElements = document.querySelectorAll(".d-flex, .xl, .p");
+// Updated to select all elements with the specified classes, adding .card-body
+const dFlexElements = document.querySelectorAll(
+  ".d-flex, .xl, .p, .card, .card-title, .card-body"
+);
 
 toggleElement.addEventListener("click", () => {
   // Toggle the .active class on the .toggle element itself
